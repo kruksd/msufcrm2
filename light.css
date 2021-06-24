@@ -1,0 +1,149 @@
+.navbarClass {
+  background-color: #F8F9FA;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+body {
+  background-color: #f7f3e9;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+  color: #5eAAA8;
+  font-weight: 600;
+}
+
+.navbar .nav-link:hover{
+  border-bottom: 1px solid black;
+  transition: 2s;
+}
+
+.marronClass {
+  color: #f05945;
+}
+
+.vissionClass {
+  margin-top: 10%;
+}
+
+.h2-aboutus-mainpage {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 50px;
+  padding: 0 5%;
+  font-weight: bold;
+  color:#5eAAA8;
+}
+
+.h2-aboutus2-mainpage {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 0px;
+  padding: 0 5%;
+  font-weight: bold;
+  color: #f05945;
+  line-height: inherit;
+}
+
+.body-main-page {
+  padding: 20px 5% 20px 5%;
+  text-align: justify;
+}
+
+.missionvision {
+  padding: 5%;
+}
+
+.missionvisionheadingclass {
+  text-align: center;
+  font-weight: bold;
+  color: #f05945;
+  line-height: inherit;
+}
+.centerHeadingMissionVision{
+  color: #5eAAA8;
+}
+.ourcoursecardsclass {
+  padding-left: 10%;
+}
+
+.justifyClass {
+  text-align: justify;
+}
+
+.assap {
+  width: 20rem;
+}
+
+.responsiveClass {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .carousel-id {
+    margin-top: 7%;
+  }
+
+  .mobileResponsiveClass {
+    display: none;
+  }
+
+  .responsiveClass {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .carousel-id {
+    margin-top: 0;
+  }
+
+  .headingClass {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-id {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-id {
+    margin-top: 12%;
+  }
+
+  .centerHeadingMissionVision {
+    text-align: center;
+    margin: 30px 0;
+  }
+}
+
+@media screen and (max-width :480px) {
+  .carousel-id {
+    margin-top: 19%;
+  }
+}
+
+@media screen and (max-width :320px) {
+  .carousel-id {
+    margin-top: 24%;
+  }
+
+  .assap {
+    width: 14rem;
+  }
+}
+
+@media screen and (max-width :281px) {
+  .carousel-id {
+    margin-top: 28%;
+  }
+}
